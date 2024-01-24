@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "streamlit-audio-recorder"
+version = "0.1.1"
+description = ""
+authors = ["Mario Rojas <mario.rojas@bain.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+  {include = "streamlit_audio_recorder"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.9, !=3.9.7"
+streamlit = "^1.26.0"
+griffe = "^0.36.9"
+pyjwt = {extras = ["crypto"], version = "^2.8.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

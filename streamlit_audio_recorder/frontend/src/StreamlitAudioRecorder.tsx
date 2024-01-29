@@ -5,7 +5,9 @@ import {
 } from "streamlit-component-lib"
 import React, { ReactNode } from "react"
 
-import AudioReactRecorder, { RecordState } from 'audio-react-recorder'
+// import AudioReactRecorder, { RecordState } from 'audio-react-recorder'
+import AudioReactRecorder from './audio-react-recorder-chunks/src'
+import { RecordState } from 'audio-react-recorder'
 import 'audio-react-recorder/dist/index.css'
 
 interface State {
